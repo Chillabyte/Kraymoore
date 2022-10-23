@@ -34,6 +34,7 @@ class GameMap:
     def render(self, console: Console) -> None:
         """
         Renders the map.
+
         If a tile is in the "visible" array, then draw it with the "light" colors.
         If it isn't, but it's in the "explored" array, then draw it with the "dark" colors.
         Otherwise, the default is "SHROUD".
