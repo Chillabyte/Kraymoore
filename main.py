@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import copy
 
 import tcod
@@ -46,7 +45,7 @@ def main() -> None:
         screen_width,
         screen_height,
         tileset=tileset,
-        title="Yet Another Roguelike Tutorial",
+        title="Kraymoore",
         vsync=True,
     ) as context:
         root_console = tcod.Console(screen_width, screen_height, order="F")
